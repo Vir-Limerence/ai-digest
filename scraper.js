@@ -110,7 +110,10 @@ function parseRSS(xml, source) {
     const e = match[1];
     const get = t => {
       const m = e.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)<\\/${t}>`, 'i'));
-      return m ? m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : '';
+      if (!m) return '';
+      // Strip HTML tags first, then decode entities
+      return m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
+        .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
     };
     const title = get('title');
     const linkMatch = isAtom
