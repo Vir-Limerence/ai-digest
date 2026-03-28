@@ -1,0 +1,29 @@
+name: Daily AI Digest
+
+on:
+  schedule:
+    # Run every day at 9:00 AM (Asia/Shanghai = 01:00 UTC)
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run scraper
+        run: node scraper.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "🤖 Daily update $(date +%Y-%m-%d)"
+          git push
