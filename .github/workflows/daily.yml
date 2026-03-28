@@ -2,9 +2,18 @@ name: Daily AI Digest
 
 on:
   schedule:
-    # Run every day at 9:00 AM (Asia/Shanghai = 01:00 UTC)
+    # 每天 01:00 UTC = 09:00 北京时间
     - cron: '0 1 * * *'
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -20,10 +29,19 @@ jobs:
       - name: Run scraper
         run: node scraper.js
 
-      - name: Commit and push
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push
+        run: |
           git add -A
           git diff --staged --quiet || git commit -m "🤖 Daily update $(date +%Y-%m-%d)"
           git push
+
+      - name: Upload to GitHub Pages
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
