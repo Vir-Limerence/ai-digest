@@ -14,6 +14,48 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_HTML = join(__dirname, 'digest.html');
 const OUTPUT_JSON = join(__dirname, 'digest.json');
 const JINA_BASE = 'https://r.jina.ai';
+const TRANSLATE_BATCH_SIZE = 10;
+
+// Detect Chinese characters
+function hasChinese(text) {
+  return /[\u4e00-\u9fff]/.test(text || '');
+}
+
+// Translate English to Chinese using MyMemory API
+async function translateToChinese(text) {
+  if (!text || hasChinese(text) || text.trim().length < 3) return text;
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|zh-CN`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+    const json = await res.json();
+    const translated = json?.responseData?.translatedText;
+    if (translated && translated !== text) return translated;
+  } catch (e) { /* skip translation */ }
+  return text;
+}
+
+// Translate a batch of items
+async function translateItems(items) {
+  let translated = 0;
+  const total = items.length;
+  for (let i = 0; i < items.length; i += TRANSLATE_BATCH_SIZE) {
+    const batch = items.slice(i, i + TRANSLATE_BATCH_SIZE);
+    const promises = batch.map(async (item) => {
+      if (!hasChinese(item.title)) {
+        const newTitle = await translateToChinese(item.title);
+        if (newTitle !== item.title) { item.title = newTitle; translated++; }
+      }
+      if (item.description && !hasChinese(item.description)) {
+        const newDesc = await translateToChinese(item.description.slice(0, 200));
+        if (newDesc !== item.description) { item.description = newDesc; }
+      }
+    });
+    await Promise.all(promises);
+    if (i + TRANSLATE_BATCH_SIZE < total) await new Promise(r => setTimeout(r, 500)); // rate limit
+    process.stdout.write(`\n🌏 翻译中 ${Math.min(i + TRANSLATE_BATCH_SIZE, total)}/${total}...`);
+  }
+  console.log(`\n   翻译了 ${translated} 个标题`);
+}
 
 // Use built-in fetch for reliability
 const httpsGet = async (url, timeout = 15000) => {
@@ -90,18 +132,18 @@ function parseJina(markdown, source) {
   const items = [];
   if (!markdown || !markdown.includes('URL Source:')) return items;
   const seen = new Set();
-  
+
   // Split markdown into sections by article links (both patterns)
   // Pattern 1: [Title](url)
   const re1 = /\[([^\]]{5,300})\]\((https?:\/\/[^\)]+)\)/g;
   // Pattern 2: [](url) - empty link (lilianweng style)
   const re2 = /\[\]\((https?:\/\/[^)]+)\)/g;
-  
+
   // For each link, find the section it belongs to
   // Strategy: split markdown by link occurrences and use context
   const allLinks = [];
   let m;
-  
+
   // Collect all link positions with type
   while ((m = re1.exec(markdown)) !== null) {
     allLinks.push({ index: m.index, type: 1, match: m });
@@ -111,21 +153,21 @@ function parseJina(markdown, source) {
     allLinks.push({ index: m.index, type: 2, match: m });
   }
   re2.lastIndex = 0;
-  
+
   // Sort by position
   allLinks.sort((a, b) => a.index - b.index);
-  
+
   for (const link of allLinks) {
     const url = link.match[2] || link.match[1];
     if (seen.has(url)) continue;
     if (/tag[s]?|\/tags?\/|subscribe|about|search|contact|privacy|terms|rss|feed/i.test(url)) continue;
     seen.add(url);
-    
+
     // Get surrounding context
     const start = Math.max(0, link.index - 1500);
     const end = Math.min(markdown.length, link.index + link.match[0].length + 500);
     const context = markdown.slice(start, end);
-    
+
     // Extract title
     let title = '';
     if (link.type === 1) {
@@ -144,20 +186,20 @@ function parseJina(markdown, source) {
       const lastSentence = before.slice(lastPunc + 1).replace(/[*_`#]/g, '').trim();
       title = lastSentence.slice(0, 200) || url.split('/').pop().replace(/-/g, ' ');
     }
-    
+
     if (title.length < 3) title = url.split('/').pop().replace(/-/g, ' ');
-    
+
     // Extract date
     const dm = context.match(/\b(20\d{2}[-/]\d{2}[-/]\d{2}|\d{1,2}\s+\w+\s+20\d{2})\b/i);
-    
+
     // Extract excerpt
     const after = markdown.slice(link.index + link.match[0].length, link.index + link.match[0].length + 400);
     const em = after.match(/^[:\s\n]*([^.!?]{30,200}?)(?:[.!?\n]|$)/);
     const excerpt = em ? em[1].replace(/[*_`#\n]/g, ' ').trim() : '';
-    
+
     items.push({ title, url, date: dm ? parseDate(dm[1]) : null, source: source.name, sourceId: source.id, description: excerpt, category: source.category });
   }
-  
+
   return items;
 }
 
@@ -182,13 +224,13 @@ async function main() {
   const allItems = [];
   const errors = [];
   const now = new Date();
-  
-  console.log(`\n🤖 AI Daily Digest — ${now.toLocaleString('zh-CN')}`);
+
+  console.log(`\n🤖 AI Daily Digest - ${now.toLocaleString('zh-CN')}`);
   console.log('='.repeat(50));
-  
+
   for (const source of sources) {
     process.stdout.write(`\n📡 ${source.name} (${source.type})... `);
-    
+
     try {
       let items = [];
       if (source.type === 'rss') {
@@ -198,7 +240,7 @@ async function main() {
         const md = await fetchJina(source.url);
         items = parseJina(md, source);
       }
-      
+
       if (items.length > 0) {
         console.log(`✅ ${items.length}篇`);
         allItems.push(...items);
@@ -211,14 +253,14 @@ async function main() {
       errors.push(source.id);
     }
   }
-  
+
   const seen = new Set();
   const unique = allItems.filter(i => {
     if (seen.has(i.url)) return false;
     seen.add(i.url);
     return true;
   });
-  
+
   unique.sort((a, b) => {
     if (!a.date && !b.date) return 0;
     if (!a.date) return 1;
@@ -228,12 +270,19 @@ async function main() {
   
   console.log(`\n\n📊 共 ${unique.length} 篇 | 失败: ${errors.join(', ') || '无'}`);
   
+  // Translate English titles to Chinese
+  const nonChineseCount = unique.filter(i => !hasChinese(i.title)).length;
+  if (nonChineseCount > 0) {
+    console.log(`🌏 正在翻译 ${nonChineseCount} 个英文标题为中文...`);
+    await translateItems(unique);
+  }
+  
   const data = { generated: now.toISOString(), count: unique.length, failed: errors, items: unique };
   writeFileSync(OUTPUT_JSON, JSON.stringify(data, null, 2));
-  
+
   const html = generateHTML(data);
   writeFileSync(OUTPUT_HTML, html);
-  
+
   console.log(`✅ 已生成: ${OUTPUT_HTML}`);
 }
 
@@ -241,7 +290,7 @@ function generateHTML(data) {
   const groups = {};
   data.items.forEach(i => { (groups[i.category] = groups[i.category] || []).push(i); });
   const catNames = { '大牛': '🧠 大牛博客', '机构': '🏢 机构博客', '中文媒体': '📰 中文媒体' };
-  
+
   let articlesHTML = '';
   for (const [cat, items] of Object.entries(groups)) {
     articlesHTML += `<div class="category-section"><h2 class="category-title">${catNames[cat] || cat}</h2><div class="article-list">`;
@@ -253,16 +302,16 @@ function generateHTML(data) {
     });
     articlesHTML += `</div></div>`;
   }
-  
+
   const genTime = new Date(data.generated).toLocaleString('zh-CN');
   const failureNote = data.failed.length > 0 ? `<div class="failure-note">⚠️ 以下来源抓取失败: ${data.failed.join(', ')}</div>` : '';
-  
+
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily Digest — ${new Date().toLocaleDateString('zh-CN')}</title>
+  <title>AI Daily Digest - ${new Date().toLocaleDateString('zh-CN')}</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-secondary: #8b949e; --accent: #58a6ff; --accent-hover: #79c0ff; --tag-bg: #1f6feb22; --tag-text: #58a6ff; --card-bg: #161b22; }
