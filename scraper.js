@@ -21,16 +21,40 @@ function hasChinese(text) {
   return /[\u4e00-\u9fff]/.test(text || '');
 }
 
-// Translate English to Chinese using MyMemory API
+// Clean translation API error messages
+function cleanTranslation(text) {
+  if (!text) return '';
+  if (text.includes('MYMEMORY WARNING') || text.includes('translated.net')) return '';
+  if (text.includes('error') && text.length < 100) return '';
+  return text;
+}
+
+// Translate English to Chinese - MyMemory first, Google fallback
 async function translateToChinese(text) {
   if (!text || hasChinese(text) || text.trim().length < 3) return text;
+  const clean = text.trim();
+  
+  // Try MyMemory
   try {
-    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|zh-CN`;
-    const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(clean)}&langpair=en|zh-CN`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
     const json = await res.json();
     const translated = json?.responseData?.translatedText;
-    if (translated && translated !== text) return translated;
-  } catch (e) { /* skip translation */ }
+    if (translated && translated !== clean && !translated.includes('MYMEMORY') && translated.length > 3) {
+      return cleanTranslation(translated);
+    }
+  } catch (e) { /* continue to fallback */ }
+  
+  // Fallback: Google Translate (no key needed, limited use)
+  try {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh&dt=t&q=${encodeURIComponent(clean)}`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
+    const json = await res.json();
+    if (json && json[0] && json[0][0] && json[0][0][0]) {
+      return cleanTranslation(json[0][0][0]);
+    }
+  } catch (e) { /* skip */ }
+  
   return text;
 }
 
