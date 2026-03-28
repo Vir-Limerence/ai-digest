@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Re-translate recent articles using Google Translate
+ * Re-translate recent articles only
  */
 import { readFileSync, writeFileSync } from 'fs';
 
@@ -14,21 +14,19 @@ const cleanTranslation = t => {
 
 const translateToChinese = async (text) => {
   const clean = text.trim();
-  // MyMemory first
   try {
     const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(clean)}&langpair=en|zh-CN`;
     const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
     const json = await res.json();
     const t = json?.responseData?.translatedText;
     if (t && t !== clean && !t.includes('MYMEMORY') && t.length > 3) return cleanTranslation(t);
-  } catch(e) {}
-  // Google fallback
+  } catch (e) {}
   try {
     const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh&dt=t&q=${encodeURIComponent(clean)}`;
     const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
     const json = await res.json();
     if (json && json[0] && json[0][0] && json[0][0][0]) return cleanTranslation(json[0][0][0]);
-  } catch(e) {}
+  } catch (e) {}
   return text;
 };
 
@@ -36,7 +34,7 @@ const data = JSON.parse(readFileSync('digest.json'));
 const recentCutoff = new Date(Date.now() - 48 * 3600 * 1000);
 const recent = data.items.filter(i => i.date && new Date(i.date) >= recentCutoff && !hasChinese(i.title) && i.title);
 
-console.log(`🌏 Re-translate ${recent.length} recent titles (Google Translate)...`);
+console.log(`🌏 Re-translate ${recent.length} recent titles (Google Translate fallback)...`);
 for (const item of recent) {
   const t = await translateToChinese(item.title);
   if (t && t !== item.title && !t.includes('MYMEMORY')) {
@@ -46,10 +44,4 @@ for (const item of recent) {
 }
 
 writeFileSync('digest.json', JSON.stringify(data, null, 2));
-
-// Regenerate HTML
-const { generateHTML } = await import('./scraper.js');
-const html = generateHTML(data);
-writeFileSync('index.html', html);
-writeFileSync('digest.html', html);
-console.log('✅ Saved digest.json + regenerated HTML');
+console.log('✅ Saved digest.json');
