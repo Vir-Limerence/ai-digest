@@ -270,14 +270,17 @@ async function main() {
   
   console.log(`\n\n📊 共 ${unique.length} 篇 | 失败: ${errors.join(', ') || '无'}`);
   
-  // Translate English titles to Chinese
-  const nonChineseCount = unique.filter(i => !hasChinese(i.title)).length;
-  if (nonChineseCount > 0) {
-    console.log(`🌏 正在翻译 ${nonChineseCount} 个英文标题为中文...`);
-    await translateItems(unique);
+  // Only translate recent articles (last 48h) for better quality translation
+  const recentCutoff = new Date(Date.now() - 48 * 3600 * 1000);
+  const recentItems = unique.filter(i => i.date && new Date(i.date) >= recentCutoff);
+  const recentCount = recentItems.filter(i => !hasChinese(i.title)).length;
+  
+  if (recentCount > 0) {
+    console.log(`🌏 正在翻译最近 ${recentItems.length} 篇新文的标题...`);
+    await translateItems(recentItems);
   }
   
-  const data = { generated: now.toISOString(), count: unique.length, failed: errors, items: unique };
+  const data = { generated: now.toISOString(), count: unique.length, failed: errors, items: unique, recentCount: recentItems.length };
   writeFileSync(OUTPUT_JSON, JSON.stringify(data, null, 2));
 
   const html = generateHTML(data);
@@ -287,10 +290,35 @@ async function main() {
 }
 
 function generateHTML(data) {
+  const recentCutoff = new Date(Date.now() - 48 * 3600 * 1000);
+  const recentItems = data.items.filter(i => i.date && new Date(i.date) >= recentCutoff);
+  const olderItems = data.items.filter(i => !i.date || new Date(i.date) < recentCutoff);
+
+  // Group recent items
+  const recentGroups = {};
+  recentItems.forEach(i => { (recentGroups[i.source] = recentGroups[i.source] || []).push(i); });
+
+  // Group older items by category
   const groups = {};
-  data.items.forEach(i => { (groups[i.category] = groups[i.category] || []).push(i); });
+  olderItems.forEach(i => { (groups[i.category] = groups[i.category] || []).push(i); });
   const catNames = { '大牛': '🧠 大牛博客', '机构': '🏢 机构博客', '中文媒体': '📰 中文媒体' };
 
+  // Build recent articles HTML (with time labels)
+  let recentHTML = '';
+  if (recentItems.length > 0) {
+    recentHTML = `<div class="category-section">
+      <h2 class="category-title">🔥 今日新文（48小时内，已翻译）</h2>
+      <div class="article-list">`;
+    recentItems.forEach(item => {
+      const d = item.date ? new Date(item.date) : null;
+      const ds = d ? d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' }) : '';
+      const ts = d ? d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }) : '';
+      recentHTML += `<article class="article-card recent"><div class="article-meta"><span class="source-tag">${item.source}</span>${ds ? `<span class="date">${ds}</span>` : ''}${ts ? `<span class="time">${ts}</span>` : ''}</div><h3 class="article-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h3>${item.description ? `<p class="article-desc">${item.description}</p>` : ''}</article>`;
+    });
+    recentHTML += `</div></div>`;
+  }
+
+  // Build older articles HTML
   let articlesHTML = '';
   for (const [cat, items] of Object.entries(groups)) {
     articlesHTML += `<div class="category-section"><h2 class="category-title">${catNames[cat] || cat}</h2><div class="article-list">`;
@@ -314,7 +342,7 @@ function generateHTML(data) {
   <title>AI Daily Digest - ${new Date().toLocaleDateString('zh-CN')}</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-secondary: #8b949e; --accent: #58a6ff; --accent-hover: #79c0ff; --tag-bg: #1f6feb22; --tag-text: #58a6ff; --card-bg: #161b22; }
+    :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-secondary: #8b949e; --accent: #58a6ff; --accent-hover: #79c0ff; --tag-bg: #1f6feb22; --tag-text: #58a6ff; --card-bg: #161b22; --recent-border: #238636; --recent-bg: #0d1917; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; }
     .header { background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 100%); border-bottom: 1px solid var(--border); padding: 48px 24px 40px; text-align: center; }
     .header h1 { font-size: 2.2rem; font-weight: 700; background: linear-gradient(135deg, #58a6ff, #a371f7, #f778ba); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 12px; }
@@ -329,6 +357,8 @@ function generateHTML(data) {
     .article-list { display: flex; flex-direction: column; gap: 16px; }
     .article-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 20px 24px; transition: all 0.2s; }
     .article-card:hover { border-color: var(--accent); transform: translateX(4px); box-shadow: 0 4px 20px rgba(88, 166, 255, 0.1); }
+    .article-card.recent { background: var(--recent-bg); border-color: var(--recent-border); }
+    .article-card.recent:hover { border-color: #3fb950; box-shadow: 0 4px 20px rgba(35, 134, 54, 0.2); }
     .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; flex-wrap: wrap; }
     .source-tag { background: var(--tag-bg); color: var(--tag-text); padding: 2px 10px; border-radius: 20px; font-size: 0.78rem; font-weight: 500; }
     .date, .time { color: var(--text-secondary); font-size: 0.82rem; }
@@ -350,11 +380,12 @@ function generateHTML(data) {
     <div class="stats">
       <div class="stat"><div class="stat-num">${data.count}</div><div class="stat-label">篇精选内容</div></div>
       <div class="stat"><div class="stat-num">${Object.keys(groups).length}</div><div class="stat-label">个来源</div></div>
-      <div class="stat"><div class="stat-num">${data.items.filter(i => i.date && new Date(i.date) >= new Date(Date.now() - 7 * 86400000)).length}</div><div class="stat-label">本周新文</div></div>
+      <div class="stat"><div class="stat-num">${data.recentCount || 0}</div><div class="stat-label">今日新文</div></div>
     </div>
   </header>
   <main class="container">
     ${failureNote}
+    ${recentHTML}
     ${articlesHTML}
   </main>
   <footer class="footer">
