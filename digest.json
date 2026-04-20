@@ -1,11 +1,38 @@
 {
-  "generated": "2026-04-19T04:14:40.439Z",
-  "count": 1857,
+  "generated": "2026-04-20T04:20:05.509Z",
+  "count": 1868,
   "failed": [
     "deepmind",
     "jiqizhixin"
   ],
   "items": [
+    {
+      "title": "用于从数据集获取数据的Google表格中的SQL函数",
+      "url": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
+      "date": "2026-04-20T02:33:58.000Z",
+      "source": "Simon Willison",
+      "sourceId": "simonwillison",
+      "description": "<p><strong>TIL ：</strong> <a href=\"https://til.simonwillison.net/google-sheets/datasette-sql\">用于从数据集获取数据的Google表格中的SQL函数</a></p> <p>我整理了一些关于图案的注释",
+      "category": "大牛"
+    },
+    {
+      "title": "Claude令牌计数器，现在带有模型比较",
+      "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything",
+      "date": "2026-04-20T00:50:45.000Z",
+      "source": "Simon Willison",
+      "sourceId": "simonwillison",
+      "description": "<p><strong><a href=\"https://tools.simonwillison.net/claude-token-counter\">Claude令牌计数器，现在带有模型比较</a></strong></p>我<a href=\"https://github.com/simonw/tools/pull/269\">升级了",
+      "category": "大牛"
+    },
+    {
+      "title": "个人人工智能的无头一切",
+      "url": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
+      "date": "2026-04-19T21:46:38.000Z",
+      "source": "Simon Willison",
+      "sourceId": "simonwillison",
+      "description": "<p><strong><a href=\"https://interconnected.org/home/2026/04/18/headless\">个人人工智能的无头一切</a></strong></p>Matt Webb认为<strong>无头</strong>服务即将成为",
+      "category": "大牛"
+    },
     {
       "title": "Claude Opus 4.6和4.7之间系统提示的变化",
       "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything",
@@ -25,25 +52,25 @@
       "category": "大牛"
     },
     {
-      "title": "在我的博客到新闻稿工具中添加新的内容类型",
+      "title": "Adding a new content type to my blog-to-newsletter tool",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
       "date": "2026-04-18T03:15:36.000Z",
       "source": "Simon Willison",
       "sourceId": "simonwillison",
-      "description": "<p><em><a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\">代理工程模式</a>&gt;</em></p> <p>这是一个看似简短的提示的示例，它得到了很多",
+      "description": "<p><em><a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\">Agentic Engineering Patterns</a> &gt;</em></p> <p>Here's an example of a deceptively short prompt that got a quite a lot of work done in a single shot.</p> <p>First, some background. I send out a <a href=\"https://simonw.",
       "category": "大牛"
     },
     {
-      "title": "加入我们在长滩举行的PyCon US 2026 -今年我们将推出新的人工智能和安全路径",
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
       "url": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything",
       "date": "2026-04-17T23:59:03.000Z",
       "source": "Simon Willison",
       "sourceId": "simonwillison",
-      "description": "<p>今年的<a href=\"https://us.pycon.org/2026/\">PyCon US</a>将于下个月5月13日至5月19日举行，核心会议将于15日（周五）至17日（周日）举行，教程和spri",
+      "description": "<p>This year's <a href=\"https://us.pycon.org/2026/\">PyCon US</a> is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to t",
       "category": "大牛"
     },
     {
-      "title": "使用合成数据构建快速多语言OCR模型",
+      "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
       "date": "2026-04-17T16:17:55.000Z",
       "source": "Hugging Face",
@@ -59,87 +86,6 @@
       "sourceId": "simonwillison",
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a28\">datasette 1.0a28</a></p> <p>I was upgrading Datasette Cloud to <a href=\"https://simonwillison.net/2026/Apr/15/datasette/\">1.0a27</a> and discovered a nasty collection of accidental breakages caused by chan",
       "category": "大牛"
-    },
-    {
-      "title": "click?sign=cd626a718cd76ce26d94ee667d5efcdd&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=jlS9TFyoEKwpvwbjZddtRxUo76WqajIbJGbwex6f_dF7SPc2cg14zoxBYSCi_RWteYKT8nQ1qYEIeOI9K1f8WA",
-      "url": "https://adx.36kr.com/api/ad/click?sign=cd626a718cd76ce26d94ee667d5efcdd&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=jlS9TFyoEKwpvwbjZddtRxUo76WqajIbJGbwex6f_dF7SPc2cg14zoxBYSCi_RWteYKT8nQ1qYEIeOI9K1f8WA",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3770793278550789",
-      "url": "https://www.36kr.com/video/3770793278550789",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "5:42  [月入3000的县城青年，为何反而更敢花钱？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "氪星研究所",
-      "url": "https://www.36kr.com/user/5307570",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "click?sign=feb10300ea35a561c8fbb3a11a056e70&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=FBkYd1DdVY4vD7khKs95lSE1R fHaT2OlS8i8cX6hIcVbwYpMDLPh0IOnJZ49T0VX2byH9qzMDQKMqo5 fZy_w",
-      "url": "https://adx.36kr.com/api/ad/click?sign=feb10300ea35a561c8fbb3a11a056e70&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=FBkYd1DdVY4vD7khKs95lSE1R-fHaT2OlS8i8cX6hIcVbwYpMDLPh0IOnJZ49T0VX2byH9qzMDQKMqo5-fZy_w",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[软硬一体“原生”革命：魏牌V9X以归元S平台树立旗舰标杆](https://adx",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3772252212855561",
-      "url": "https://www.36kr.com/p/3772252212855561",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[本地 AI 人人能用？我们拿千元机测了一下，结果太拉了](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "智能Pro",
-      "url": "https://www.36kr.com/user/15727294",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3772254457201152",
-      "url": "https://www.36kr.com/p/3772254457201152",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[亏25亿，杭州89年小哥IPO：友商赚了107亿](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "IPO快报",
-      "url": "https://www.36kr.com/motif/327685767169",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3772465098588676",
-      "url": "https://www.36kr.com/p/3772465098588676",
-      "date": "2026-04-17T00:00:00.000Z",
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[DeepSeek梁文锋的大动作，黄仁勋慌了](https://www",
-      "category": "中文媒体"
     },
     {
       "title": "llm-anthropic 0.25",
@@ -664,24 +610,6 @@
       "category": "机构"
     },
     {
-      "title": "GitHub Repo Size",
-      "url": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
-      "date": "2026-04-09T21:31:50.000Z",
-      "source": "Simon Willison",
-      "sourceId": "simonwillison",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/github-repo-size\">GitHub Repo Size</a></p> <p>GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly <a href=\"https://api.github.com/repos/simonw/datasette\">API</a>. Paste a repo into this tool to se",
-      "category": "大牛"
-    },
-    {
-      "title": "asgi-gzip 0.3",
-      "url": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
-      "date": "2026-04-09T03:54:40.000Z",
-      "source": "Simon Willison",
-      "sourceId": "simonwillison",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/asgi-gzip/releases/tag/0.3\">asgi-gzip 0.3</a></p> <p>I ran into trouble deploying a new feature using <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events\">SSE</a> to a production Datasette instance, and it turne",
-      "category": "大牛"
-    },
-    {
       "title": "$1",
       "url": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
       "date": "2026-04-09T00:00:00.000Z",
@@ -716,15 +644,6 @@
       "sourceId": "huggingface",
       "description": "",
       "category": "机构"
-    },
-    {
-      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "url": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
-      "date": "2026-04-08T23:07:44.000Z",
-      "source": "Simon Willison",
-      "sourceId": "simonwillison",
-      "description": "<p>Meta <a href=\"https://ai.meta.com/blog/introducing-muse-spark-msl/\">announced Muse Spark</a> today, their first model release since Llama 4 <a href=\"https://simonwillison.net/2025/Apr/5/llama-4-notes/\">almost exactly a year ago</a>. It's hosted, not open weights, and the API is currently \"a priva",
-      "category": "大牛"
     },
     {
       "title": "$1",
@@ -16000,17 +15919,26 @@
       "category": "中文媒体"
     },
     {
-      "title": "3772082486739719",
-      "url": "https://www.36kr.com/p/3772082486739719",
+      "title": "3773691953230336",
+      "url": "https://www.36kr.com/p/3773691953230336",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[为了AI数据中心，马斯克和孟菲斯居民撕两年了](https://www",
+      "description": "[杨立昆开喷 Anthropic CEO：别信那个卖AI的人](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "3773109807985159",
-      "url": "https://www.36kr.com/p/3773109807985159",
+      "title": "3774585093849601",
+      "url": "https://www.36kr.com/p/3774585093849601",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀，AI时代Token焦虑越来越离谱](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "36氪重磅官宣，寻找时代「AI豆」",
+      "url": "https://adx.36kr.com/api/ad/click?sign=516fe8e75bf2cc5e98d19ece1a9a68b6&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9tZm9ybS8zNzI2NDI0NTUxMzk3NzY3&param.adsdk=R166D8DZJk4gywTV-SHQHvQFVqrGlR-tMMNpsZJIgkdqmc682GOv2pspR-Nnkh3maqW33KkZHg5lsZ4cuzsukg",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16018,12 +15946,12 @@
       "category": "中文媒体"
     },
     {
-      "title": "3773044974453509",
-      "url": "https://www.36kr.com/p/3773044974453509",
+      "title": "3771654550405638",
+      "url": "https://www.36kr.com/p/3771654550405638",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[比Nano Banana还夯的生图模型泄露，截图不再是证据了 | 附提示词](https://www",
+      "description": "[DeepSeek终于要融资了？而五家国产大模型都找到了赚钱的路](https://www",
       "category": "中文媒体"
     },
     {
@@ -16090,17 +16018,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3773140530938375",
-      "url": "https://www.36kr.com/p/3773140530938375",
+      "title": "3774625071088131",
+      "url": "https://www.36kr.com/p/3774625071088131",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[“理想系”，开始批量生产独角兽](https://www",
+      "description": "[老铺黄金们，逼得年轻人开始居家打金](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "创投圈秘事",
-      "url": "https://www.36kr.com/motif/1654014377589128",
+      "title": "关于消费的一切",
+      "url": "https://www.36kr.com/motif/327685832705",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16108,17 +16036,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3773205424275976",
-      "url": "https://www.36kr.com/p/3773205424275976",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[中国公司全球化周报｜TikTok Shop即将上线波兰、荷兰、比利时/阿里云连续5年居中国游戏云市场份额第一](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "出海是门大生意",
-      "url": "https://www.36kr.com/motif/327687405569",
+      "title": "真故研究室",
+      "url": "https://www.36kr.com/user/5806483",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16126,21 +16045,12 @@
       "category": "中文媒体"
     },
     {
-      "title": "36氪出海",
-      "url": "https://www.36kr.com/user/11918142",
+      "title": "3774635621040899",
+      "url": "https://www.36kr.com/p/3774635621040899",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3773150630490880",
-      "url": "https://www.36kr.com/p/3773150630490880",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[“Claude僧人”的奇幻漂流：弃码出家三十年后，回业界调教AI](https://www",
+      "description": "[Token计算：下一个十年的成本战争](https://www",
       "category": "中文媒体"
     },
     {
@@ -16150,6 +16060,33 @@
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
       "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "36氪的朋友们",
+      "url": "https://www.36kr.com/user/375349",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774636894388739",
+      "url": "https://www.36kr.com/p/3774636894388739",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[机器人半马如何跑完21公里？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774636985451009",
+      "url": "https://www.36kr.com/p/3774636985451009",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[为什么每个人的一生，都会刷到一次大冰切片？](https://www",
       "category": "中文媒体"
     },
     {
@@ -16180,17 +16117,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3772102046171907",
-      "url": "https://www.36kr.com/p/3772102046171907",
+      "title": "3774637116715529",
+      "url": "https://www.36kr.com/p/3774637116715529",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[擦边带货的“国民牛奶”，撕开了老字号的遮羞布](https://www",
+      "description": "[AI斩杀线，Anthropic还要制造多少条？](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "关于消费的一切",
-      "url": "https://www.36kr.com/motif/327685832705",
+      "title": "click?sign=6810e2caede5b399f5dbc41879f587df&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=QnjItJEbZE6PpJTfyiN1X6TXH6xi966CKsoIqxeub46s2_gBk6ydYMRPHcxptAwpV4vSDdJosLtbYzACKFILuw",
+      "url": "https://adx.36kr.com/api/ad/click?sign=6810e2caede5b399f5dbc41879f587df&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=QnjItJEbZE6PpJTfyiN1X6TXH6xi966CKsoIqxeub46s2_gBk6ydYMRPHcxptAwpV4vSDdJosLtbYzACKFILuw",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16198,35 +16135,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3:44 AI短剧真的能赚钱吗？",
-      "url": "https://www.36kr.com/v-video/3770743139218176",
+      "title": "3769383266087425",
+      "url": "https://www.36kr.com/v-video/3769383266087425",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[2:11 国产AI芯片崛起：三大门派、瓜分英伟达](https://www",
+      "description": "4:52  [氪大事 | 46小时内两次袭击，美国人这么怕AI？](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "2:11 国产AI芯片崛起：三大门派、瓜分英伟达",
-      "url": "https://www.36kr.com/v-video/3770786749952771",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[2:12 县城餐饮，批量收割普通创业者](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "2:12 县城餐饮，批量收割普通创业者",
-      "url": "https://www.36kr.com/v-video/3767843749573125",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[3:14 英伟达开源 告别老码农 机器人自己编程干活](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3:14 英伟达开源 告别老码农 机器人自己编程干活",
-      "url": "https://www.36kr.com/video/3769192427631362",
+      "title": "氪星研究所",
+      "url": "https://www.36kr.com/user/5307570",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16234,12 +16153,21 @@
       "category": "中文媒体"
     },
     {
-      "title": "3773021416538880",
-      "url": "https://www.36kr.com/p/3773021416538880",
+      "title": "click?sign=fe62ff48710a026e44141b6e2cdc0710&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=i079Vc8cWGG1QA_iqA1l2GMQcMgTyXDvwuEUmiiUrOI63hpRVy3ESQh2cFGWVJbwOwxeFEZUoIPbkmIZlRzhkA",
+      "url": "https://adx.36kr.com/api/ad/click?sign=fe62ff48710a026e44141b6e2cdc0710&param.redirectUrl=aHR0cHM6Ly8zNmtyLmNvbS9wLzM3NzIxMTI5NjYzMzcyODc&param.adsdk=i079Vc8cWGG1QA_iqA1l2GMQcMgTyXDvwuEUmiiUrOI63hpRVy3ESQh2cFGWVJbwOwxeFEZUoIPbkmIZlRzhkA",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[安全专家纷纷离职，谁为AI竞赛踩刹车](https://www",
+      "description": "[软硬一体“原生”革命：魏牌V9X以归元S平台树立旗舰标杆](https://adx",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774585803112966",
+      "url": "https://www.36kr.com/p/3774585803112966",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[日本造船业订单量连年减少，翻番目标尚远](https://www",
       "category": "中文媒体"
     },
     {
@@ -16252,44 +16180,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3773021667754756",
-      "url": "https://www.36kr.com/p/3773021667754756",
+      "title": "3774602459263752",
+      "url": "https://www.36kr.com/p/3774602459263752",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[充电桩涨价，五毛一度的“拼好电”越来越少了](https://www",
+      "description": "[前有钉钉后有Salesforce，中美SaaS巨头做出了相同的历史抉择](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "3773078234268168",
-      "url": "https://www.36kr.com/p/3773078234268168",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[一天审完两万篇，AAAI 2026首次实装AI审稿，单篇成本不到1美元](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3773096350745350",
-      "url": "https://www.36kr.com/p/3773096350745350",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[花上千块给毛孩子买机票的年轻人， 后悔了吗？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3773090942321155",
-      "url": "https://www.36kr.com/p/3773090942321155",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[36氪首发 | 前华为工程师创业，实现临时键合载板存量循环，龙头客户已验证](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "36氪首发",
-      "url": "https://www.36kr.com/motif/1198587555695112",
+      "title": "3774582981767682",
+      "url": "https://www.36kr.com/p/3774582981767682",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16297,8 +16198,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3772224973537794",
-      "url": "https://www.36kr.com/p/3772224973537794",
+      "title": "3:55 智商税还是真香？自制“毒气室” 测试，带你看懂空气净化器各种参数",
+      "url": "https://www.36kr.com/video/3773150127600389",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16306,8 +16207,26 @@
       "category": "中文媒体"
     },
     {
-      "title": "新商业观察",
-      "url": "https://www.36kr.com/motif/327689076737",
+      "title": "8:26 AI盯上2.5亿股民，巨头纷纷布局AI炒股真的靠谱吗？",
+      "url": "https://www.36kr.com/video/3773867436110337",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[3:15 复星国际亏损234亿，“中国巴菲特”道歉](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3:15 复星国际亏损234亿，“中国巴菲特”道歉",
+      "url": "https://www.36kr.com/video/3773013651059462",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[5:58 大疆Pocket 4 VS Pocket 3：最全对决，谁是真正的神？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "5:58 大疆Pocket 4 VS Pocket 3：最全对决，谁是真正的神？",
+      "url": "https://www.36kr.com/video/3771116149682947",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16315,8 +16234,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "36氪产业创新",
-      "url": "https://www.36kr.com/user/19630955",
+      "title": "3774562596762119",
+      "url": "https://www.36kr.com/p/3774562596762119",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[20 岁小镇姑娘战胜 Meta：一场改变社交媒体命运的审判](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "互联网新鲜事",
+      "url": "https://www.36kr.com/motif/327689814017",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16324,8 +16252,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "“钢铁侠”马斯克",
-      "url": "https://www.36kr.com/motif/327686258689",
+      "title": "3774520155271689",
+      "url": "https://www.36kr.com/p/3774520155271689",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[我们的品牌为啥缺少“娱乐精神”？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "营销广告人又干什么了",
+      "url": "https://www.36kr.com/motif/327685636097",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16333,8 +16270,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3771731122389769",
-      "url": "https://www.36kr.com/p/3771731122389769",
+      "title": "李倩说品牌",
+      "url": "https://www.36kr.com/user/5852592",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16342,8 +16279,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "字节跳动的版图",
-      "url": "https://www.36kr.com/motif/327686225921",
+      "title": "3774603293639170",
+      "url": "https://www.36kr.com/p/3774603293639170",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16351,26 +16288,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3771736819647233",
-      "url": "https://www.36kr.com/p/3771736819647233",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[Anthropic 要亲手杀死 Figma 了吗？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771770656359173",
-      "url": "https://www.36kr.com/p/3771770656359173",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[AI芯片初创公司，进入“斩杀线”](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "半导体产业纵横",
-      "url": "https://www.36kr.com/user/5634127",
+      "title": "新居住时代",
+      "url": "https://www.36kr.com/motif/327685898241",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16378,35 +16297,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3771835501626113",
-      "url": "https://www.36kr.com/p/3771835501626113",
+      "title": "3774501424841222",
+      "url": "https://www.36kr.com/p/3774501424841222",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[马斯克又向激光雷达开炮！没有人比我更懂激光雷达](https://www",
+      "description": "[华尔街投资家吉姆·罗杰斯：“我的资产传承里，要有中国股票”](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "科技每日推送",
-      "url": "https://www.36kr.com/user/19193837",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3772000666337796",
-      "url": "https://www.36kr.com/p/3772000666337796",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[哈啰新版共享单车速度赶超电动车？“能当山地车骑进川藏，但骑13分钟收我15元”](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "共享出行新鲜事",
-      "url": "https://www.36kr.com/motif/327685881857",
+      "title": "复旦《管理视野》",
+      "url": "https://www.36kr.com/user/5816123",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16414,35 +16315,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "Vista氢商业",
-      "url": "https://www.36kr.com/user/5313537",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771991146447365",
-      "url": "https://www.36kr.com/p/3771991146447365",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771730656477956",
-      "url": "https://www.36kr.com/p/3771730656477956",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[万字拆解：AI五大门派的底牌、命门与终极赌局](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771787921474309",
-      "url": "https://www.36kr.com/p/3771787921474309",
+      "title": "3774492665266950",
+      "url": "https://www.36kr.com/p/3774492665266950",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16468,44 +16342,26 @@
       "category": "中文媒体"
     },
     {
-      "title": "3771804468412928",
-      "url": "https://www.36kr.com/p/3771804468412928",
+      "title": "3774488631165698",
+      "url": "https://www.36kr.com/p/3774488631165698",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[新能源投资的万亿市场已经变天了](https://www",
+      "description": "[你在网上买的“大牌尾货”，可能来自小区里的回收箱](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "专精特新-新能源",
-      "url": "https://www.36kr.com/motif/1846745018370696",
+      "title": "3774468707332611",
+      "url": "https://www.36kr.com/p/3774468707332611",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "",
+      "description": "[两大巨头财报戳破四大真相：种植牙行业真的变天了](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "首席商业评论",
-      "url": "https://www.36kr.com/user/5252769",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771814578766597",
-      "url": "https://www.36kr.com/p/3771814578766597",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[开发者们最近自荐了 3 个好用的 App](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "这些产品动向值得关注",
-      "url": "https://www.36kr.com/motif/327686586369",
+      "title": "医线Insight",
+      "url": "https://www.36kr.com/user/6347114",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16513,35 +16369,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3771929563562504",
-      "url": "https://www.36kr.com/p/3771929563562504",
+      "title": "3774584574411520",
+      "url": "https://www.36kr.com/p/3774584574411520",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[谷歌向左、李飞飞往右，阿里世界模型「快乐生蚝」杀出第三条路](https://www",
+      "description": "[人均80块的火锅店，正在大面积关门](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "阿里的疆域",
-      "url": "https://www.36kr.com/motif/327686094849",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771701475394308",
-      "url": "https://www.36kr.com/p/3771701475394308",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[突发：OpenAI连失大将，Sora之父离职，IPO前夜风波不断](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771691809321734",
-      "url": "https://www.36kr.com/p/3771691809321734",
+      "title": "餐饮老板内参",
+      "url": "https://www.36kr.com/user/5288244",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16549,53 +16387,26 @@
       "category": "中文媒体"
     },
     {
-      "title": "3771690585223689",
-      "url": "https://www.36kr.com/p/3771690585223689",
+      "title": "3774507770343944",
+      "url": "https://www.36kr.com/p/3774507770343944",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[设计行业的“棺材板”，要被Claude Design盖上了](https://www",
+      "description": "[传统赛道卷无可卷，万豪们开始集体卷“养生”](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "3771756155077127",
-      "url": "https://www.36kr.com/p/3771756155077127",
+      "title": "3774566936216064",
+      "url": "https://www.36kr.com/p/3774566936216064",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[刚刚，Claude推出“Figma杀手”，设计软件股暴跌](https://www",
+      "description": "[字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70%｜独家](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "3771844317381378",
-      "url": "https://www.36kr.com/p/3771844317381378",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[梁文锋的电话，被投资人打爆了](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3770721219035649",
-      "url": "https://www.36kr.com/p/3770721219035649",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[智元机器人，要做AI大模型平台和开放生态](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771659597873666",
-      "url": "https://www.36kr.com/p/3771659597873666",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[“全冰去水”点单暗号刷屏，年轻人正在爆改瑞幸、星巴克](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3771648499610118",
-      "url": "https://www.36kr.com/p/3771648499610118",
+      "title": "36氪独家",
+      "url": "https://www.36kr.com/motif/971990712381445",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16603,8 +16414,224 @@
       "category": "中文媒体"
     },
     {
-      "title": "新造车势力又搞事",
-      "url": "https://www.36kr.com/motif/327685996545",
+      "title": "3774513604948481",
+      "url": "https://www.36kr.com/p/3774513604948481",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "出海是门大生意",
+      "url": "https://www.36kr.com/motif/327687405569",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "DataEye",
+      "url": "https://www.36kr.com/user/15154927",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774466923905797",
+      "url": "https://www.36kr.com/p/3774466923905797",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "TopKlout克劳锐",
+      "url": "https://www.36kr.com/user/19610626",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774575172764416",
+      "url": "https://www.36kr.com/p/3774575172764416",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[厦门狂揽188家首店，万象城断层领先！](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774514673857284",
+      "url": "https://www.36kr.com/p/3774514673857284",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[螺蛳粉、五色糯米饭成短剧“主角”？“微短剧+”又有新打法？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774567979516423",
+      "url": "https://www.36kr.com/p/3774567979516423",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "未来城不落",
+      "url": "https://www.36kr.com/user/991026445",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774511632876293",
+      "url": "https://www.36kr.com/p/3774511632876293",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[鸿蒙操作系统都有18%的份额了，小米OV们为何至今不愿加入？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "手机厂商成长的烦恼",
+      "url": "https://www.36kr.com/motif/327685947393",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774548108657409",
+      "url": "https://www.36kr.com/p/3774548108657409",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[吃不了太多苦的打工人，正流行去韩国徒步](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774521401590276",
+      "url": "https://www.36kr.com/p/3774521401590276",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[DeepSeek不会向资本低头](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "创投圈秘事",
+      "url": "https://www.36kr.com/motif/1654014377589128",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "全天候科技",
+      "url": "https://www.36kr.com/user/1265540640",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3771592183824897",
+      "url": "https://www.36kr.com/p/3771592183824897",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[荷兰政府花200亿都留不住，ASML执意从老家搬走，背后深层原因](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3771041321546502",
+      "url": "https://www.36kr.com/p/3771041321546502",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[AI表情包集体出海，这批00后已经月入过万](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3771091617067777",
+      "url": "https://www.36kr.com/p/3771091617067777",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[OpenAI 与 Anthropic，是兄弟就来砍我](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774551638163977",
+      "url": "https://www.36kr.com/p/3774551638163977",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[“限高”风波7个月后，王健林又添38亿新债](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "房地产下半场",
+      "url": "https://www.36kr.com/motif/327686062081",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3771882390290946",
+      "url": "https://www.36kr.com/p/3771882390290946",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[“A股之王”源杰科技：曾被日本供应商当“骗子”，一年股价涨幅超12倍](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3771697712837385",
+      "url": "https://www.36kr.com/p/3771697712837385",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[芯片大神突然离职，帮高通干翻苹果后，他要组建最强铁三角做AI芯片？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3771577762104071",
+      "url": "https://www.36kr.com/p/3771577762104071",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[产品还没上线，市场机会已经流走，传统组织的问题出在哪儿？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "管理人指南",
+      "url": "https://www.36kr.com/motif/327686455297",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "哈佛商业评论",
+      "url": "https://www.36kr.com/user/10504858",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16613,11 +16640,11 @@
     },
     {
       "title": "查看更多资讯",
-      "url": "https://www.36kr.com/information/web_news/latest?anchor=3771648499610118",
+      "url": "https://www.36kr.com/information/web_news/latest?anchor=3771577762104071",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "最新快讯  五家AIC去年净赚超184亿元  3分钟前  在利率下行、传统信贷业务利润空间收窄的背景下，五家国有大行旗下AIC呈现“利润增减互现、资产稳健扩张”态势，工银投资以52",
+      "description": "最新快讯  “五一”临近航班遭取消？航空公司：优先签转，保障旅客顺利成行",
       "category": "中文媒体"
     },
     {
@@ -16668,6 +16695,78 @@
     {
       "title": "查看更多榜单",
       "url": "https://www.36kr.com/hot-list/catalog",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3773160330248960",
+      "url": "https://www.36kr.com/p/3773160330248960",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3719736708200068",
+      "url": "https://www.36kr.com/p/3719736708200068",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[36氪首发｜「东犁退休俱乐部」完成亿元级B轮融资，为300万活力银发族打造“线上+线下”社交生活方式](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774401650656001",
+      "url": "https://www.36kr.com/p/3774401650656001",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3773501645259269",
+      "url": "https://www.36kr.com/p/3773501645259269",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[华人数学家封神，王虹、唐云清斩获数学界「奥斯卡」](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3773230505820930",
+      "url": "https://www.36kr.com/p/3773230505820930",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[果然，最恨 AI 的人，是大学毕业生](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774445505561351",
+      "url": "https://www.36kr.com/p/3774445505561351",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3774435677766151",
+      "url": "https://www.36kr.com/p/3774435677766151",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3773208573723397",
+      "url": "https://www.36kr.com/p/3773208573723397",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
