@@ -1,40 +1,58 @@
 {
-  "generated": "2026-05-10T04:44:37.686Z",
-  "count": 1870,
+  "generated": "2026-05-11T04:58:25.501Z",
+  "count": 1876,
   "failed": [
     "deepmind",
     "jiqizhixin"
   ],
   "items": [
     {
-      "title": "“OncoAgent ：保护隐私的肿瘤临床决策支持双层多代理框架”",
-      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
-      "date": "2026-05-09T18:09:28.000Z",
+      "title": "引用《纽约时报》编者按",
+      "url": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
+      "date": "2026-05-10T23:58:49.000Z",
+      "source": "Simon Willison",
+      "sourceId": "simonwillison",
+      "description": "<blockquote cite=\"https://www.nytimes.com/2026/04/14/world/canada/election-carney-liberal-party.html\"><p><em>这篇文章是在《泰晤士报》得知皮埃尔·波列耶夫的评论",
+      "category": "大牛"
+    },
+    {
+      "title": "MachinaCheck ：在AMD MI300X上构建多代理数控制造系统",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+      "date": "2026-05-10T18:44:11.000Z",
       "source": "Hugging Face",
       "sourceId": "huggingface",
       "description": "",
       "category": "机构"
     },
     {
-      "title": "引用Luke Curley",
+      "title": "引用Andrew Quinn",
+      "url": "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything",
+      "date": "2026-05-10T14:59:17.000Z",
+      "source": "Simon Willison",
+      "sourceId": "simonwillison",
+      "description": "<blockquote cite=\"https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/#fn:5\"><p>可以说，在我生命的第一个四分之一世纪，",
+      "category": "大牛"
+    },
+    {
+      "title": "Quoting Luke Curley",
       "url": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
       "date": "2026-05-09T01:03:58.000Z",
       "source": "Simon Willison",
       "sourceId": "simonwillison",
-      "description": "<blockquote cite=\"https://moq.dev/blog/webrtc-is-the-problem/\"><p>WebRTC旨在在恶劣的网络条件下<strong>降级和丢弃我的提示</strong> </p>。<p>wtf my dude</p> <p>WebRTC agg",
+      "description": "<blockquote cite=\"https://moq.dev/blog/webrtc-is-the-problem/\"><p>WebRTC is designed to <strong>degrade and drop my prompt</strong> during poor network conditions.</p> <p>wtf my dude</p> <p>WebRTC aggressively drops audio packets to keep latency low. If you’ve ever heard distorted audio on a confere",
       "category": "大牛"
     },
     {
-      "title": "使用Claude Code ： HTML不合理的效果",
+      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
       "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
       "date": "2026-05-08T21:00:11.000Z",
       "source": "Simon Willison",
       "sourceId": "simonwillison",
-      "description": "<p><strong><a href=\"https://twitter.com/trq212/status/2052809885763747935\">使用Claude Code ： HTML不合理的效果</a></strong></p>Thariq Shihipar的引人深思的作品（关于",
+      "description": "<p><strong><a href=\"https://twitter.com/trq212/status/2052809885763747935\">Using Claude Code: The Unreasonable Effectiveness of HTML</a></strong></p> Thought-provoking piece by Thariq Shihipar (on the Claude Code team at Anthropic) advocating for HTML over Markdown as an output format to request fro",
       "category": "大牛"
     },
     {
-      "title": "EMO ：对专家进行预培训，以实现新兴的模块化",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
       "url": "https://huggingface.co/blog/allenai/emo",
       "date": "2026-05-08T16:03:50.000Z",
       "source": "Hugging Face",
@@ -50,6 +68,51 @@
       "sourceId": "openai",
       "description": "$1",
       "category": "机构"
+    },
+    {
+      "title": "氪大事 | 世界杯中国转播权还在谈判，“央妈”为何选择正面硬刚？",
+      "url": "https://www.36kr.com/v-video/3800542865060355",
+      "date": "2026-05-08T00:00:00.000Z",
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "中国球迷这次看不了世界杯了？  [氪星研究所](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "氪星研究所",
+      "url": "https://www.36kr.com/user/5307570",
+      "date": "2026-05-08T00:00:00.000Z",
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "38万应用暴露、2000+应用泄密，AI编程把“内网”变公网",
+      "url": "https://www.36kr.com/p/3801593671081735",
+      "date": "2026-05-08T00:00:00.000Z",
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[vibe coding 工具正在泄露大量个人和企业数据。](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "被 AI 重新激活的「无屏手环」，成了大厂争抢的运动健康新赛道",
+      "url": "https://www.36kr.com/p/3801545622363656",
+      "date": "2026-05-08T00:00:00.000Z",
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[​硬件只是入口，AI 才是产品。](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3801532116180487",
+      "url": "https://www.36kr.com/p/3801532116180487",
+      "date": "2026-05-08T00:00:00.000Z",
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[上海北京天津等多地国资纷纷入局脑机接口，这个赛道有意思了](https://www",
+      "category": "中文媒体"
     },
     {
       "title": "llm-gemini 0.31",
@@ -125,7 +188,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -134,7 +197,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "date": "2026-05-07T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -482,24 +545,6 @@
       "sourceId": "openai",
       "description": "$1",
       "category": "机构"
-    },
-    {
-      "title": "LLM 0.32a0 is a major backwards-compatible refactor",
-      "url": "https://simonwillison.net/2026/Apr/29/llm/#atom-everything",
-      "date": "2026-04-29T19:01:47.000Z",
-      "source": "Simon Willison",
-      "sourceId": "simonwillison",
-      "description": "<p>I just released <a href=\"https://llm.datasette.io/en/latest/changelog.html#a0-2026-04-28\">LLM 0.32a0</a>, an alpha release of my <a href=\"https://llm.datasette.io/\">LLM</a> Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a w",
-      "category": "大牛"
-    },
-    {
-      "title": "llm 0.32a0",
-      "url": "https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything",
-      "date": "2026-04-29T18:57:47.000Z",
-      "source": "Simon Willison",
-      "sourceId": "simonwillison",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32a0\">llm 0.32a0</a></p> <p>See <a href=\"https://simonwillison.net/2026/Apr/29/llm/\">the annotated release notes</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-      "category": "大牛"
     },
     {
       "title": "Granite 4.1 LLMs: How They’re Built",
@@ -917,16 +962,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/academy/working-with-files",
-      "date": "2026-04-10T00:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
-      "url": "https://openai.com/academy/operations",
+      "url": "https://openai.com/academy/prompting",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -962,6 +998,15 @@
     },
     {
       "title": "$1",
+      "url": "https://openai.com/academy/operations",
+      "date": "2026-04-10T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
       "url": "https://openai.com/academy/data-analysis",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI Blog",
@@ -971,7 +1016,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/academy/prompting",
+      "url": "https://openai.com/academy/working-with-files",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -1106,7 +1151,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/academy/marketing",
+      "url": "https://openai.com/academy/custom-gpts",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -1115,7 +1160,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/academy/custom-gpts",
+      "url": "https://openai.com/academy/marketing",
       "date": "2026-04-10T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -1448,7 +1493,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "url": "https://openai.com/index/japan-teen-safety-blueprint",
       "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -1457,7 +1502,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/japan-teen-safety-blueprint",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
       "date": "2026-03-17T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -1736,7 +1781,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-5-3-instant",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
       "date": "2026-03-03T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -1745,7 +1790,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "url": "https://openai.com/index/gpt-5-3-instant",
       "date": "2026-03-03T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -2654,15 +2699,6 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
-      "date": "2025-12-18T11:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI Blog",
@@ -2673,6 +2709,15 @@
     {
       "title": "$1",
       "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "date": "2025-12-18T11:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "date": "2025-12-18T11:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3014,7 +3059,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "url": "https://openai.com/index/openai-to-acquire-neptune",
       "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3023,7 +3068,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/openai-to-acquire-neptune",
+      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
       "date": "2025-12-03T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3275,16 +3320,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/chatgpt-for-teachers",
-      "date": "2025-11-19T00:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
-      "url": "https://openai.com/index/scania",
+      "url": "https://openai.com/index/gpt-5-1-codex-max-system-card",
       "date": "2025-11-19T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3302,7 +3338,16 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-5-1-codex-max-system-card",
+      "url": "https://openai.com/index/chatgpt-for-teachers",
+      "date": "2025-11-19T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/scania",
       "date": "2025-11-19T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3419,7 +3464,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1",
+      "url": "https://openai.com/index/gpt-5-1",
       "date": "2025-11-12T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3428,7 +3473,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-5-1",
+      "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1",
       "date": "2025-11-12T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3635,7 +3680,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership",
+      "url": "https://openai.com/index/built-to-benefit-everyone",
       "date": "2025-10-28T06:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -3644,7 +3689,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/built-to-benefit-everyone",
+      "url": "https://openai.com/index/next-chapter-of-microsoft-openai-partnership",
       "date": "2025-10-28T06:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4085,7 +4130,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/openai-support-model",
+      "url": "https://openai.com/index/openai-contract-data-agent",
       "date": "2025-09-29T13:30:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4094,7 +4139,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/openai-inbound-sales-assistant",
+      "url": "https://openai.com/index/openai-support-model",
       "date": "2025-09-29T13:30:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4130,7 +4175,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/openai-contract-data-agent",
+      "url": "https://openai.com/index/openai-inbound-sales-assistant",
       "date": "2025-09-29T13:30:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4454,7 +4499,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/statement-on-openai-nonprofit-and-pbc",
+      "url": "https://openai.com/index/joint-statement-from-openai-and-microsoft",
       "date": "2025-09-11T14:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4463,7 +4508,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/joint-statement-from-openai-and-microsoft",
+      "url": "https://openai.com/index/statement-on-openai-nonprofit-and-pbc",
       "date": "2025-09-11T14:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4850,25 +4895,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-5-safe-completions",
-      "date": "2025-08-07T00:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/gpt-5-first-look",
-      "date": "2025-08-07T00:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
-      "url": "https://openai.com/index/introducing-gpt-5",
       "date": "2025-08-07T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4887,6 +4914,24 @@
     {
       "title": "$1",
       "url": "https://openai.com/index/gpt-5-amgen",
+      "date": "2025-08-07T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/gpt-5-safe-completions",
+      "date": "2025-08-07T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/introducing-gpt-5",
       "date": "2025-08-07T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4922,7 +4967,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-oss-model-card",
+      "url": "https://openai.com/index/introducing-gpt-oss",
       "date": "2025-08-05T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -4949,7 +4994,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-gpt-oss",
+      "url": "https://openai.com/index/gpt-oss-model-card",
       "date": "2025-08-05T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -6956,7 +7001,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/ten-tiny-canvases",
+      "url": "https://openai.com/index/fishing-for-first-timers",
       "date": "2025-02-04T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -6965,7 +7010,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/fishing-for-first-timers",
+      "url": "https://openai.com/index/ten-tiny-canvases",
       "date": "2025-02-04T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -7037,20 +7082,20 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/o3-mini-system-card",
-      "date": "2025-01-31T11:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/openai-o3-mini",
       "date": "2025-01-31T11:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
       "description": "",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/o3-mini-system-card",
+      "date": "2025-01-31T11:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
       "category": "机构"
     },
     {
@@ -7127,20 +7172,20 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/operator-system-card",
-      "date": "2025-01-23T10:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/computer-using-agent",
       "date": "2025-01-23T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
       "description": "",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/operator-system-card",
+      "date": "2025-01-23T10:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
       "category": "机构"
     },
     {
@@ -7442,7 +7487,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/sora-minne-atairu",
+      "url": "https://openai.com/index/sora-vallee-duhamel",
       "date": "2024-12-09T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -7451,7 +7496,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/sora-vallee-duhamel",
+      "url": "https://openai.com/index/sora-system-card",
       "date": "2024-12-09T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -7469,7 +7514,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/put-ai-to-work-for-your-product-team",
+      "url": "https://openai.com/index/sora-minne-atairu",
       "date": "2024-12-09T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -7478,7 +7523,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/sora-system-card",
+      "url": "https://openai.com/index/put-ai-to-work-for-your-product-team",
       "date": "2024-12-09T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -8279,7 +8324,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/o1-economics",
+      "url": "https://openai.com/index/o1-quantum-physics",
       "date": "2024-09-12T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -8288,7 +8333,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/o1-quantum-physics",
+      "url": "https://openai.com/index/o1-economics",
       "date": "2024-09-12T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -8846,7 +8891,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/improved-techniques-for-training-consistency-models",
+      "url": "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world",
       "date": "2024-06-20T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -8855,7 +8900,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world",
+      "url": "https://openai.com/index/improved-techniques-for-training-consistency-models",
       "date": "2024-06-20T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9062,7 +9107,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-chatgpt-edu",
+      "url": "https://openai.com/index/introducing-openai-for-nonprofits",
       "date": "2024-05-30T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9071,7 +9116,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-openai-for-nonprofits",
+      "url": "https://openai.com/index/introducing-chatgpt-edu",
       "date": "2024-05-30T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9314,7 +9359,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/spring-update",
+      "url": "https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free",
       "date": "2024-05-13T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9323,7 +9368,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free",
+      "url": "https://openai.com/index/spring-update",
       "date": "2024-05-13T10:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9458,20 +9503,20 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
-      "date": "2024-04-24T00:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/gpt-4-api-general-availability",
       "date": "2024-04-24T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
       "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
+      "date": "2024-04-24T00:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "",
       "category": "机构"
     },
     {
@@ -9692,7 +9737,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/oscar",
+      "url": "https://openai.com/index/start-using-chatgpt-instantly",
       "date": "2024-04-01T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9701,7 +9746,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/start-using-chatgpt-instantly",
+      "url": "https://openai.com/index/oscar",
       "date": "2024-04-01T00:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9809,15 +9854,6 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/salesforce",
-      "date": "2024-03-18T07:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/holiday-extras",
       "date": "2024-03-18T07:00:00.000Z",
       "source": "OpenAI Blog",
@@ -9828,6 +9864,15 @@
     {
       "title": "$1",
       "url": "https://openai.com/index/superhuman",
+      "date": "2024-03-18T07:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/salesforce",
       "date": "2024-03-18T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9872,15 +9917,6 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
-      "date": "2024-03-13T07:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/healthify",
       "date": "2024-03-13T07:00:00.000Z",
       "source": "OpenAI Blog",
@@ -9890,8 +9926,8 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/openai-announces-new-members-to-board-of-directors",
-      "date": "2024-03-08T08:00:00.000Z",
+      "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
+      "date": "2024-03-13T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
       "description": "$1",
@@ -9900,6 +9936,15 @@
     {
       "title": "$1",
       "url": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai",
+      "date": "2024-03-08T08:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/openai-announces-new-members-to-board-of-directors",
       "date": "2024-03-08T08:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9917,7 +9962,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/match-group",
+      "url": "https://openai.com/index/lifespan",
       "date": "2024-03-06T08:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -9926,7 +9971,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/lifespan",
+      "url": "https://openai.com/index/match-group",
       "date": "2024-03-06T08:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -10304,20 +10349,20 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/introducing-chatgpt-team",
-      "date": "2024-01-10T08:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
       "url": "https://openai.com/index/introducing-the-gpt-store",
       "date": "2024-01-10T08:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
       "description": "",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/introducing-chatgpt-team",
+      "date": "2024-01-10T08:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
       "category": "机构"
     },
     {
@@ -10673,7 +10718,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/ironclad",
+      "url": "https://openai.com/index/typeform",
       "date": "2023-10-11T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -10682,7 +10727,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/typeform",
+      "url": "https://openai.com/index/ironclad",
       "date": "2023-10-11T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -11915,7 +11960,7 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/stripe",
+      "url": "https://openai.com/index/gpt-4-research",
       "date": "2023-03-14T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -11925,15 +11970,6 @@
     {
       "title": "$1",
       "url": "https://openai.com/index/be-my-eyes",
-      "date": "2023-03-14T07:00:00.000Z",
-      "source": "OpenAI Blog",
-      "sourceId": "openai",
-      "description": "$1",
-      "category": "机构"
-    },
-    {
-      "title": "$1",
-      "url": "https://openai.com/index/government-of-iceland",
       "date": "2023-03-14T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -11960,7 +11996,16 @@
     },
     {
       "title": "$1",
-      "url": "https://openai.com/index/gpt-4-research",
+      "url": "https://openai.com/index/stripe",
+      "date": "2023-03-14T07:00:00.000Z",
+      "source": "OpenAI Blog",
+      "sourceId": "openai",
+      "description": "$1",
+      "category": "机构"
+    },
+    {
+      "title": "$1",
+      "url": "https://openai.com/index/government-of-iceland",
       "date": "2023-03-14T07:00:00.000Z",
       "source": "OpenAI Blog",
       "sourceId": "openai",
@@ -16081,8 +16126,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3802013552926466",
-      "url": "https://www.36kr.com/p/3802013552926466",
+      "title": "75亿，一个网红独角兽破产",
+      "url": "https://www.36kr.com/p/3803123400711687",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16090,8 +16135,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3802790694886916",
-      "url": "https://www.36kr.com/p/3802790694886916",
+      "title": "178亿，阿里CEO押注的机器人公司上市了，首日高开102%",
+      "url": "https://www.36kr.com/p/3804246584794624",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16099,53 +16144,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "3756437881684744",
-      "url": "https://www.36kr.com/p/3756437881684744",
+      "title": "天价转播费+阴间赛程，中国网友为美加墨世界杯吵翻了",
+      "url": "https://www.36kr.com/p/3804225212227080",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[告别盲目锻炼 这份周练计划直接照做](https://www",
+      "description": "",
       "category": "中文媒体"
     },
     {
-      "title": "3787661080714497",
+      "title": "“36氪企业全情报”官方股票舆情交流社群，正式开放招募！",
       "url": "https://www.36kr.com/p/3787661080714497",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[“36氪企业全情报”官方股票舆情交流社群，正式开放招募！](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "36氪首发 | 视觉空间智能大模型及应用平台「兔展智能」连续完成E、F轮数亿元人民币融资",
-      "url": "https://www.36kr.com/p/3798920757877769",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
-      "url": "https://www.36kr.com/p/3682907323150215",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[36氪首发｜国内首家落地“筷子夹”塔架回收技术的商业航天公司，完成5亿元融资](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "36氪首发｜国内首家落地“筷子夹”塔架回收技术的商业航天公司，完成5亿元融资",
-      "url": "https://www.36kr.com/p/3790141500366085",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[要做电商Agent OS，前钉钉最年轻副总裁创立的「攀峰智能」再次完成数千万天使轮融资](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "要做电商Agent OS，前钉钉最年轻副总裁创立的「攀峰智能」再次完成数千万天使轮融资",
-      "url": "https://www.36kr.com/p/3768320373441281",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16162,12 +16171,12 @@
       "category": "中文媒体"
     },
     {
-      "title": "3802970281041408",
-      "url": "https://www.36kr.com/p/3802970281041408",
+      "title": "Kimi与DeepSeek到底谁更值钱？",
+      "url": "https://www.36kr.com/p/3801988019036422",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[豆包推出收费：纯免费的大模型越来越少了](https://www",
+      "description": "",
       "category": "中文媒体"
     },
     {
@@ -16180,8 +16189,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "首席商业评论",
-      "url": "https://www.36kr.com/user/5252769",
+      "title": "奇点研究社",
+      "url": "https://www.36kr.com/user/5478488",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16189,12 +16198,210 @@
       "category": "中文媒体"
     },
     {
-      "title": "3802943078440708",
-      "url": "https://www.36kr.com/p/3802943078440708",
+      "title": "大模型下半场：印奇向左，杨植麟向右",
+      "url": "https://www.36kr.com/p/3804360855854592",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[芯片产业的最大金主们，花钱逻辑变了](https://www",
+      "description": "[同一个夜晚，两笔融资，两条截然不同的路。](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "三天，三家公司，超百亿美元：中国AI大模型的融资决战周",
+      "url": "https://www.36kr.com/p/3801518218845961",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[DeepSeek估值三周翻五倍，阶跃星辰、月之暗面同周密集亮牌。国内大模型一级市场的定价博弈基本收官，真正的“淘汰赛”正式转入下半场。](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "创投圈秘事",
+      "url": "https://www.36kr.com/motif/1654014377589128",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "强调Next",
+      "url": "https://www.36kr.com/user/5404566",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "接手王思聪公司后，何猷君豪赌海南",
+      "url": "https://www.36kr.com/p/3804360991809285",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "商业人物追踪",
+      "url": "https://www.36kr.com/motif/327687618561",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "从宁德时代到寒武纪：谁在驱动中国资产的价值跃升？",
+      "url": "https://www.36kr.com/p/3804349803060742",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[中国资产尤其是科技资产的价值跃升具有重塑全球竞争格局的战略意义，这不仅是经济现象，更是大国博弈中科技主权与金融主权同步确立的关键标志。](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "《财经》新媒体",
+      "url": "https://www.36kr.com/user/13164445",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3801569380556297",
+      "url": "https://www.36kr.com/p/3801569380556297",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[视频模型：最容易制造惊艳，也最容易消耗惊艳](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "6:18 五块钱红酒卖断货，萨莉亚的“穷鬼套餐”为何让年轻人上头？",
+      "url": "https://www.36kr.com/video/3800754897941249",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[4:37 后巴菲特时代来了 8万字股东大会，4条保命干货](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "4:37 后巴菲特时代来了 8万字股东大会，4条保命干货",
+      "url": "https://www.36kr.com/v-video/3801853492125703",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[6:52 反物质装进卡车里运走，物理学家怎么做到的？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "6:52 反物质装进卡车里运走，物理学家怎么做到的？",
+      "url": "https://www.36kr.com/video/3800373302948617",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[3:15 三星家电撤场中国，一场被误读的“胜利” 个人观点仅供参考](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3:15 三星家电撤场中国，一场被误读的“胜利” 个人观点仅供参考",
+      "url": "https://www.36kr.com/video/3801938156183557",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3801673273417986",
+      "url": "https://www.36kr.com/p/3801673273417986",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[五个AI大佬，一起抛出6个判断](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "世界模型工场",
+      "url": "https://www.36kr.com/user/6366747",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3801695346401542",
+      "url": "https://www.36kr.com/p/3801695346401542",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3801723282562820",
+      "url": "https://www.36kr.com/p/3801723282562820",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3802057292062208",
+      "url": "https://www.36kr.com/p/3802057292062208",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "体育健身新趋势",
+      "url": "https://www.36kr.com/motif/327687471105",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "体育大生意",
+      "url": "https://www.36kr.com/user/1813944410",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3802022210822151",
+      "url": "https://www.36kr.com/p/3802022210822151",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[深扒机器人「App Store」：动作很多但全是舞蹈武术，国内厂商走偏了？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3802038144884738",
+      "url": "https://www.36kr.com/p/3802038144884738",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[AI输出格式大换血：Markdown被嫌弃，HTML这个「老古董」杀回来了](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3801898990690049",
+      "url": "https://www.36kr.com/p/3801898990690049",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[MCU，今年迎来第二轮涨价潮](https://www",
       "category": "中文媒体"
     },
     {
@@ -16216,399 +16423,12 @@
       "category": "中文媒体"
     },
     {
-      "title": "3802894641110792",
-      "url": "https://www.36kr.com/p/3802894641110792",
+      "title": "3801847583645700",
+      "url": "https://www.36kr.com/p/3801847583645700",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[第四个孩子出生后，我从工作了12年的腾讯离职了](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "职场每日必读",
-      "url": "https://www.36kr.com/motif/327686520833",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802895711887108",
-      "url": "https://www.36kr.com/p/3802895711887108",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[一只独角兽造假，投资人被骗30亿](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "创投圈秘事",
-      "url": "https://www.36kr.com/motif/1654014377589128",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "苹果到底需要什么？ 2026年4月21日，苹果官宣库克（Tim Cook）将卸任 CEO，由约翰·特努斯（John Ternus）接手。与此同时，长期掌管苹果芯片业务的约翰尼·斯鲁吉（Johny Srouji）将出任首席硬件官。一时间，关于苹果公司未来发展的预测纷至沓来，但没有人能给出一个明确的答案，可能连约翰自己也不能。",
-      "url": "https://www.36kr.com/topics/3777702636639493",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[36氪2025年度透视 “透视图”栏目在年终特别策划了“36氪年度总结”系列，用数据透视2025全年趋势，以图片呈现今年商业世界中不可错过的要点。持续更新中 >>](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "36氪2025年度透视 “透视图”栏目在年终特别策划了“36氪年度总结”系列，用数据透视2025全年趋势，以图片呈现今年商业世界中不可错过的要点。持续更新中 >>",
-      "url": "https://www.36kr.com/topics/3607915481810183",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[豆包撞上“旧城墙” 发布三天，“豆包AI手机”就开始陆续收到来自各种软件的“封禁”，一场关于“入口”的攻防战或许会从此展开。尽管在第一轮交锋中，豆包选择了让步，但移动互联网时代的墙根已开始松动。](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "豆包撞上“旧城墙” 发布三天，“豆包AI手机”就开始陆续收到来自各种软件的“封禁”，一场关于“入口”的攻防战或许会从此展开。尽管在第一轮交锋中，豆包选择了让步，但移动互联网时代的墙根已开始松动。",
-      "url": "https://www.36kr.com/topics/3587732652490753",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802850619809288",
-      "url": "https://www.36kr.com/p/3802850619809288",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[Agent 时代需要怎样的分布式基础设施](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "极客邦科技InfoQ",
-      "url": "https://www.36kr.com/user/323686438",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802776863990020",
-      "url": "https://www.36kr.com/p/3802776863990020",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[10分钟卖500万桶，复购率不到15%，自嗨锅的钱都烧哪儿了？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "关于消费的一切",
-      "url": "https://www.36kr.com/motif/327685832705",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3800542865060355",
-      "url": "https://www.36kr.com/v-video/3800542865060355",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "3:35  [氪大事 | 世界杯中国转播权还在谈判，“央妈”为何选择正面硬刚？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "氪星研究所",
-      "url": "https://www.36kr.com/user/5307570",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802834184904199",
-      "url": "https://www.36kr.com/p/3802834184904199",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[DeepSeek上桌费才500亿](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802822550839047",
-      "url": "https://www.36kr.com/p/3802822550839047",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[Ozon大中华区总裁Simon Huang：中国卖家，正在涌向俄罗斯｜专访](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "出海是门大生意",
-      "url": "https://www.36kr.com/motif/327687405569",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802818127076867",
-      "url": "https://www.36kr.com/p/3802818127076867",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "半导体行业观察",
-      "url": "https://www.36kr.com/user/11089688",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802801708981763",
-      "url": "https://www.36kr.com/p/3802801708981763",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[饮品杀出新物种：加颗球从7元卖到30+，多城刷屏爆单](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "42:02 中国机器人的全球化野心、“踢馆”硅谷，及Physical AI的爆发准备：对话魔法原子",
-      "url": "https://www.36kr.com/video/3800474279490313",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[3:52 银行发卫星查账，中国航天正在撕开“太空垄断”的口子？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3:52 银行发卫星查账，中国航天正在撕开“太空垄断”的口子？",
-      "url": "https://www.36kr.com/v-video/3800621323268867",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[3:09 4年消失了1亿张，信用卡为何被用户抛弃了？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3:09 4年消失了1亿张，信用卡为何被用户抛弃了？",
-      "url": "https://www.36kr.com/video/3800373402169864",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[3:35 氪大事 | 世界杯中国转播权还在谈判，“央妈”为何选择正面硬刚？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802839155843333",
-      "url": "https://www.36kr.com/p/3802839155843333",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[新研究表明，使用 AI 仅 10 分钟就可能使人变得懒惰和愚钝](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "Edu指南",
-      "url": "https://www.36kr.com/user/1104930953",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802258052096004",
-      "url": "https://www.36kr.com/p/3802258052096004",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802719110193161",
-      "url": "https://www.36kr.com/p/3802719110193161",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[俞敏洪过不去“小作文”的坎儿](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "商业人物追踪",
-      "url": "https://www.36kr.com/motif/327687618561",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801745491943169",
-      "url": "https://www.36kr.com/p/3801745491943169",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[融资超亿元、割草机器人公司拿下数亿订单，瞄准庭院具身终端｜硬氪首发](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "36氪首发",
-      "url": "https://www.36kr.com/motif/1198587555695112",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801919515827969",
-      "url": "https://www.36kr.com/p/3801919515827969",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[9倍狂飙！SK海力士“封神”背后，藏着多少腥风血雨？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802071678000901",
-      "url": "https://www.36kr.com/p/3802071678000901",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[2026 AI眼镜大战升级：一边等苹果出手，一边憋大招](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "颠覆手机的新设备来了",
-      "url": "https://www.36kr.com/motif/1130794280694278",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802199199833857",
-      "url": "https://www.36kr.com/p/3802199199833857",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[年入50亿，顺德网红巨头，业绩坐上“过山车”](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3802262491029252",
-      "url": "https://www.36kr.com/p/3802262491029252",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[首超龙虾，「爱马仕」Agent全球调用第一，小米MiMo是第一贡献模型](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801873104215557",
-      "url": "https://www.36kr.com/p/3801873104215557",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[开拍爆发背后：普通人需要怎样的AI工具？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801739376844801",
-      "url": "https://www.36kr.com/p/3801739376844801",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[中国最大的AI包工头，要上市了](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "又有公司IPO了",
-      "url": "https://www.36kr.com/motif/1654013433018759",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801780097785347",
-      "url": "https://www.36kr.com/p/3801780097785347",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[估值逼近1万亿美元！全球最值钱的AI创企，要易主了](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801571065553160",
-      "url": "https://www.36kr.com/p/3801571065553160",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[Cerebras上市背后，OpenAI正在抢英伟达的蛋糕](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801536533471491",
-      "url": "https://www.36kr.com/p/3801536533471491",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801606087876872",
-      "url": "https://www.36kr.com/p/3801606087876872",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[广州、深圳：写字楼掀起“酒店变形记”](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801591162871301",
-      "url": "https://www.36kr.com/p/3801591162871301",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[人均三十的萨莉亚，养活了北上广酒鬼](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801611316977158",
-      "url": "https://www.36kr.com/p/3801611316977158",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[一文看懂\"算力通胀\"：为什么你用AI越来越便宜，算力公司却越来越赚钱？](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801467993939465",
-      "url": "https://www.36kr.com/p/3801467993939465",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[苹果和英特尔，分手六年后，又“在一起”了](https://www",
+      "description": "[苹果AI硬件“首秀”押注AirPods， AI耳机即将告别“伪概念”？](https://www",
       "category": "中文媒体"
     },
     {
@@ -16621,35 +16441,8 @@
       "category": "中文媒体"
     },
     {
-      "title": "3801521399602697",
-      "url": "https://www.36kr.com/p/3801521399602697",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[周大福和老铺黄金，都想做奢侈品生意](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801474770689792",
-      "url": "https://www.36kr.com/p/3801474770689792",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[当「微度假」成为实体商业新趋势，我们该向泰国商场学什么](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "3801461350702855",
-      "url": "https://www.36kr.com/p/3801461350702855",
-      "date": null,
-      "source": "36氪 AI",
-      "sourceId": "36kr-ai",
-      "description": "[AI开始接管年轻人的「精神自留地」](https://www",
-      "category": "中文媒体"
-    },
-    {
-      "title": "后浪研究所",
-      "url": "https://www.36kr.com/user/10246630",
+      "title": "AI价值官",
+      "url": "https://www.36kr.com/user/6027075",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16657,21 +16450,30 @@
       "category": "中文媒体"
     },
     {
-      "title": "3801452698722056",
-      "url": "https://www.36kr.com/p/3801452698722056",
+      "title": "3804300079243009",
+      "url": "https://www.36kr.com/p/3804300079243009",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[人口争夺战！成都，虹吸重庆！](https://www",
+      "description": "[智能体=新型攻击入口？模型上线前，OpenAI内部到底审什么？董事会成员首次详解](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "新居住时代",
-      "url": "https://www.36kr.com/motif/327685898241",
+      "title": "极客邦科技InfoQ",
+      "url": "https://www.36kr.com/user/323686438",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
       "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804305732541956",
+      "url": "https://www.36kr.com/p/3804305732541956",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[在 Anthropic 的读心术之外，大模型黑盒迎来了真正的法医](https://www",
       "category": "中文媒体"
     },
     {
@@ -16684,26 +16486,26 @@
       "category": "中文媒体"
     },
     {
-      "title": "3801420844097031",
-      "url": "https://www.36kr.com/p/3801420844097031",
+      "title": "3804299532476169",
+      "url": "https://www.36kr.com/p/3804299532476169",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[4亿年客流却留不住人？上海虹桥商圈正在逆袭](https://www",
+      "description": "[谷歌瞄准英伟达宝座：“全球股王”将易主？](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "3801338129915398",
-      "url": "https://www.36kr.com/p/3801338129915398",
+      "title": "3803692009774853",
+      "url": "https://www.36kr.com/p/3803692009774853",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[“养虾人”自述：我为什么卸载龙虾？](https://www",
+      "description": "[中国6G来了，美国焦虑，日韩抱团，印度声称要引领全球6G](https://www",
       "category": "中文媒体"
     },
     {
-      "title": "定焦One",
-      "url": "https://www.36kr.com/user/13251860",
+      "title": "5G进行时",
+      "url": "https://www.36kr.com/motif/327687913473",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16711,12 +16513,57 @@
       "category": "中文媒体"
     },
     {
-      "title": "3801430303940361",
-      "url": "https://www.36kr.com/p/3801430303940361",
+      "title": "3802200595521538",
+      "url": "https://www.36kr.com/p/3802200595521538",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[全长26公里 北京东部新添高速规划方案公示](https://www",
+      "description": "[都是智驾第一梯队？别吹了，智驾里程才是检验实力的唯一硬指标](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3803543973388033",
+      "url": "https://www.36kr.com/p/3803543973388033",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[Sora的“死”与可灵的“生”](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804322827492870",
+      "url": "https://www.36kr.com/p/3804322827492870",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[一年多部烂片，视觉团队被连锅端，漫威为何成了迪士尼的「弃子」？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804312428355333",
+      "url": "https://www.36kr.com/p/3804312428355333",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[63岁黄仁勋获CMU荣誉博士，上台授袍的竟是英特尔CEO](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804312529722880",
+      "url": "https://www.36kr.com/p/3804312529722880",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[一个分号击穿GitHub，少写一行过滤代码，亿级代码仓库差点被端](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804327995514369",
+      "url": "https://www.36kr.com/p/3804327995514369",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[北京海淀区2026年第一批公租房启动配租 共计958套房源](https://www",
       "category": "中文媒体"
     },
     {
@@ -16729,8 +16576,17 @@
       "category": "中文媒体"
     },
     {
-      "title": "查看更多资讯",
-      "url": "https://www.36kr.com/information/web_news/latest?anchor=3801430303940361",
+      "title": "3804301137567489",
+      "url": "https://www.36kr.com/p/3804301137567489",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[谁是中国出境游下一个爆款旅游目的地？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "新居住时代",
+      "url": "https://www.36kr.com/motif/327685898241",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
@@ -16738,12 +16594,129 @@
       "category": "中文媒体"
     },
     {
-      "title": "6308858",
+      "title": "3804302689869318",
+      "url": "https://www.36kr.com/p/3804302689869318",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[接入AI agent的家庭机器人，离成为真正的「家人」还差什么？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804272405782791",
+      "url": "https://www.36kr.com/p/3804272405782791",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[进账100倒贴18，西安旅游的酒店生意越做越亏？](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "关于消费的一切",
+      "url": "https://www.36kr.com/motif/327685832705",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804287486418435",
+      "url": "https://www.36kr.com/p/3804287486418435",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804078728617479",
+      "url": "https://www.36kr.com/p/3804078728617479",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[活在你爸记忆里的游戏公司，正在狠狠爆年轻人金币](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "游戏圈大事件",
+      "url": "https://www.36kr.com/motif/327687553025",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804292190985733",
+      "url": "https://www.36kr.com/p/3804292190985733",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[究竟该如何给DeepSeek估值](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "硅星人Pro",
+      "url": "https://www.36kr.com/user/17325558",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3802211149291778",
+      "url": "https://www.36kr.com/p/3802211149291778",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[实探广州四座加氢站：停运的比开的多，加次氢先跑几十公里](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804286227357447",
+      "url": "https://www.36kr.com/p/3804286227357447",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[直飞开通在即！带上耳朵，进入这座南欧最夯首都](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3802847712419842",
+      "url": "https://www.36kr.com/p/3802847712419842",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "查看更多资讯",
+      "url": "https://www.36kr.com/information/web_news/latest?anchor=3802847712419842",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "2026 AI Partner AI+产业大会",
+      "url": "https://www.36kr.com/live/3784751803587843",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "开播时间  05-19 00:00  企业号 换一换  [",
+      "category": "中文媒体"
+    },
+    {
+      "title": "氪睿研究院 氪睿研究院由36氪与RET睿意德共同创立",
       "url": "https://www.36kr.com/user/6308858",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[氪睿研究院 氪睿研究院由36氪与RET睿意德共同创立](https://www",
+      "description": "最近发布了：  [千亿赛道，超七成毛利：卡牌凭什么成为新消费的吸金之王？](https://www",
       "category": "中文媒体"
     },
     {
@@ -16756,12 +16729,12 @@
       "category": "中文媒体"
     },
     {
-      "title": "14286433",
+      "title": "数睿数据 数睿数据是一家专注于大数据与无代码软件产品的技术与服务提供商",
       "url": "https://www.36kr.com/user/14286433",
       "date": null,
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
-      "description": "[数睿数据 数睿数据是一家专注于大数据与无代码软件产品的技术与服务提供商](https://www",
+      "description": "最近发布了：  [smardaten企业级无代码官网全新上线啦！](https://www",
       "category": "中文媒体"
     },
     {
@@ -16789,6 +16762,87 @@
       "source": "36氪 AI",
       "sourceId": "36kr-ai",
       "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "8点1氪丨SK海力士回应“员工人均奖金达610万元”传闻；世界杯中国转播费从3亿美元腰斩到1.5亿；曝三星中国家电部门裁员补偿N+4，还送手机",
+      "url": "https://www.36kr.com/p/3804132892646919",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "DeepSeek塞进苹果本儿，分币不花实现“龙虾自由”",
+      "url": "https://www.36kr.com/p/3803167337783561",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "豆包推出收费：纯免费的大模型越来越少了",
+      "url": "https://www.36kr.com/p/3802970281041408",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "拍短剧的都跑去干旅拍了",
+      "url": "https://www.36kr.com/p/3802914430836487",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3803113114787331",
+      "url": "https://www.36kr.com/p/3803113114787331",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3804251203427842",
+      "url": "https://www.36kr.com/p/3804251203427842",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[黄仁勋致 2026 届毕业生：别慌，AI 把所有人拉回同一起跑线 | 附演讲全文](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3803096622341633",
+      "url": "https://www.36kr.com/p/3803096622341633",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[密集母职10年后，东亚妈妈开始集体疲惫](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "3803019132919298",
+      "url": "https://www.36kr.com/p/3803019132919298",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "[900亿巨头，栽在1140万上](https://www",
+      "category": "中文媒体"
+    },
+    {
+      "title": "杭州分会场暨“幸会杭州 机汇富春”具身智能产业链对接会",
+      "url": "https://adx.36kr.com/api/ad/click?sign=dfcc9fa93e7cbae2eba8680c2f24d44b&param.redirectUrl=aHR0cHM6Ly90b3BpY3MuMzZrci5jb20vdG9waWMvMjAyNmFpcGFydG5lcmhhbmd6aG91&param.adsdk=-8KoegXhI7IS4geRAI1mDe-HsN6s1T-ar5bPMEEWnalXcSGHfHzun3rklRBR2nMQ62IGv0-Hnd3mL9LXp4d7Tg",
+      "date": null,
+      "source": "36氪 AI",
+      "sourceId": "36kr-ai",
+      "description": "关于36氪      [城市合作](https://www",
       "category": "中文媒体"
     },
     {
@@ -16837,5 +16891,5 @@
       "category": "中文媒体"
     }
   ],
-  "recentCount": 5
+  "recentCount": 3
 }
